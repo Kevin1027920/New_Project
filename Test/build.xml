@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Test" default="run" basedir='.'>
+	
+	<property name="src" value="src"/>
+	<property name="build" value="build"/>
+	<property name="lib" value="lib"/>
+	<property name="jar" value="test.jar"/>
+	
+	<target name="init" depends="clean" description="init">
+		<!--  首先创建build目录     -->
+		<mkdir dir="${build}"/>
+		<mkdir dir="${lib}"/>
+	</target>
+	
+	<target name="clean">
+		<delete dir="${build}"/>
+		<delete dir="${lib}"/>
+		<delete file="${jar}"/>	
+	</target>
+	
+	<target name="compile" depends="init" description="compile">
+		<javac srcdir="${src}" destdir="${build}" includeantruntime="false"/>
+	</target>
+
+	<target name="build" depends="compile" description="build">
+	
+		<jar destfile="${lib}/${jar}" basedir="${build}"/>
+	
+	</target>
+	
+	<target name="run" depends="build" description="run">
+	
+		<java classname="test.Test" classpath="${build}"/>
+		
+	
+	</target>
+
+
+</project>

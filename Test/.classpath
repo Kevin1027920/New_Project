@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="D:/Softwares/Java8/lib/apache-mina-2.0.16/dist/mina-core-2.0.16.jar" sourcepath="D:/Softwares/Java8/lib/apache-mina-2.0.16-src/src"/>
+	<classpathentry kind="lib" path="D:/Softwares/Java8/lib/apache-mina-2.0.16/dist/mina-example-2.0.16.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/Java8/lib/apache-mina-2.0.16/dist/mina-filter-compression-2.0.16.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/Java8/lib/apache-mina-2.0.16/dist/mina-http-2.0.16.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/Java8/lib/apache-mina-2.0.16/dist/mina-integration-beans-2.0.16.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/Java8/lib/apache-mina-2.0.16/dist/mina-integration-jmx-2.0.16.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/Java8/lib/apache-mina-2.0.16/dist/mina-integration-ognl-2.0.16.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/Java8/lib/apache-mina-2.0.16/dist/mina-integration-xbean-2.0.16.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/Java8/lib/apache-mina-2.0.16/dist/mina-statemachine-2.0.16.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/Java8/lib/apache-mina-2.0.16/dist/mina-transport-apr-2.0.16.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/Java8/lib/apache-mina-2.0.16/lib/commons-logging-1.0.3.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/Java8/lib/apache-mina-2.0.16/lib/javassist-3.20.0-GA.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/Java8/lib/apache-mina-2.0.16/lib/jcl-over-slf4j-1.7.21.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/Java8/lib/apache-mina-2.0.16/lib/jzlib-1.1.3.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/Java8/lib/apache-mina-2.0.16/lib/ognl-3.1.11.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/Java8/lib/apache-mina-2.0.16/lib/spring-2.5.6.SEC03.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/Java8/lib/apache-mina-2.0.16/lib/tomcat-jni-9.0.0.M11.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/Java8/lib/apache-mina-2.0.16/lib/xbean-spring-4.5.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/Java8/lib/slf4j-1.7.22/slf4j-api-1.7.22.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/Java8/lib/slf4j-1.7.22/slf4j-jdk14-1.7.22.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
